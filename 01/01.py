@@ -1,9 +1,5 @@
 import numpy as np
 
-# read, parse
-data = open('input.txt', 'r').readlines()
-data = np.array([int(d.strip()) for d in data])
-
 def one(data):
     n = len(data)
     count = 0
